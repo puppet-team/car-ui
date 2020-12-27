@@ -1,4 +1,4 @@
-# vue-dome
+# car-ui
 
 ## Project setup
 ```

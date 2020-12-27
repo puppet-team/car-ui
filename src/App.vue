@@ -43,7 +43,7 @@
             <!--            <van-col style="display: flex"><span style="width:100px;display: flex;justify-content: flex-end">网<span-->
             <!--                style="width:30px"></span>点：</span>{{ item.address }}-->
             <!--            </van-col>-->
-            <van-col style="display: flex"><span style="width:100px;display: flex;justify-content: flex-end">服<span
+            <van-col style="display: flex"><span style="width:100px!important;display: flex;justify-content: flex-end">服<span
                 style="width:30px"></span>务：</span>{{ item.scopeServices }}
             </van-col>
           </van-ßrow>
@@ -138,10 +138,10 @@ export default {
 
 /deep/ .van-col {
   float: left;
-  box-sizing: border-box;
+width: 275px;
   min-height: 1px;
-  height: 30px;
-  line-height: 30px;
+  /*height: 30px;*/
+  /*line-height: 30px;*/
   padding-bottom: 20px;
   box-sizing: border-box;
 }
